@@ -8,8 +8,11 @@
 
   <title><?= $title ?></title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <!-- Font -->
   <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/font-awesome.min.css">
   <!-- Slicknav -->
@@ -25,7 +28,8 @@
   <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/extras.css">
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/responsive.css">
-
+  <!-- ANIMATE AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +37,7 @@
   <!-- Header Area wrapper Starts -->
   <header id="header-wrap">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar" style="background-color: rgb(255, 255, 255, .8)">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -43,31 +47,26 @@
             <span class="icon-menu"></span>
             <span class="icon-menu"></span>
           </button>
-          <a href="<?= base_url() ?>" class="navbar-brand"><img src="<?= base_url() ?>assets/img/logo.png" alt=""></a>
+          <a href="<?= base_url() ?>" class="navbar-brand"><img src="<?= base_url() ?>assets/img/presisi/L1.png" alt="Brands"></a>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <li class="nav-item">
+            <li class="nav-item <?= $title == 'Home' ? 'active' : ''; ?>">
               <a class="nav-link" href="<?= base_url() ?>">
                 Home
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $title == 'About' ? 'active' : ''; ?>">
               <a class="nav-link" href="<?= base_url() ?>about">
-                About
+                About Us
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $title == 'Products' ? 'active' : ''; ?>">
               <a class="nav-link" href="<?= base_url() ?>products">
                 Products
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?= base_url() ?>services">
-                Services
-              </a>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $title == 'Contact' ? 'active' : ''; ?>">
               <a class="nav-link" href="<?= base_url() ?>contact">
                 Contact
               </a>
@@ -85,17 +84,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url() ?>about">
-            About
+            About Us
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url() ?>products">
             Products
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= base_url() ?>services">
-            Services
           </a>
         </li>
         <li class="nav-item">
