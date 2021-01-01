@@ -8,6 +8,10 @@ More Info: https://uideck.com/products/helium-ui-kit
 
 /* CUSTOM */
 /* -HOME */
+#sliders .carousel-item img {
+	min-height: 450px;
+}
+
 /* --BUSINESS */
 #business .img-item {
 	max-width: 500px;
@@ -23,7 +27,7 @@ More Info: https://uideck.com/products/helium-ui-kit
 
 /* --SLIDERS */
 
-#sliders .carousel-item::after {
+/* #sliders .carousel-item::after {
 	content: "";
 	display: block;
 	width: 100%;
@@ -35,16 +39,26 @@ More Info: https://uideck.com/products/helium-ui-kit
 	);
 	position: absolute;
 	bottom: 0;
-}
+} */
 /* --END SLIDERS */
 
 .welcome {
-	margin-top: 10px;
+	background-color: #fff;
+	box-shadow: 0px -20px 0 rgba(0, 0, 0, 0.2);
+	padding: 13px 0;
+	border-radius: 25px;
+	position: relative;
+	top: -25px;
 }
 .welcome h3 {
-	color: grey;
+	font-family: "Spectral", serif;
+	/* color: #fff; */
 	margin: 10px 0;
 	text-transform: uppercase;
+	/* font-size: 40px; */
+}
+.welcome hr {
+	border: 1px solid #6699ffa8;
 }
 section {
 	padding: 30px 0;
@@ -3168,7 +3182,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #carousel-area .carousel-indicators {
-	bottom: 5px;
+	bottom: 15px;
 }
 
 #carousel-area .carousel-indicators li {
@@ -3941,9 +3955,12 @@ a:hover:not([href]):not([tabindex]) {
 }
 
 .portfolio-img {
+	margin: 10px;
+	max-height: 250px;
 	overflow: hidden;
 	display: block;
 	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolio-img img {

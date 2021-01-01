@@ -1,7 +1,7 @@
 .section-title {
 	color: #585b60;
-	font-size: 38px;
-	text-align: center;
+	font-size: 26px;
+	text-align: left;
 	letter-spacing: 1px;
 	line-height: 1;
 	margin-bottom: 48px;
@@ -12,9 +12,8 @@
 .section-title::after {
 	content: "";
 	display: block;
-	border-bottom: 3px solid #ff8d41;
-	width: 200px;
-	margin: auto;
+	border-bottom: 3px solid #ff8d41d3;
+	width: 150px;
 	padding-bottom: 5px;
 }
 

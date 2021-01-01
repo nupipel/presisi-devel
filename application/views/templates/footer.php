@@ -55,18 +55,12 @@
               <!-- Footer Widget Starts -->
               <div class="footer-widget col-lg-3 col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".8s">
                   <h3 class="small-title">
-                      SUBSCRIBE US
+                      VISITORS
                   </h3>
-                  <div class="contact-us">
-                      <form>
-                          <div class="form-group">
-                              <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter your name">
-                          </div>
-                          <div class="form-group">
-                              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter your email">
-                          </div>
-                          <button type="submit" class="btn btn-common">Submit</button>
-                      </form>
+                  <div class="contact-us w-50">
+                      <a href='https://free-hit-counters.net/'>Get free Hit Counters</a>
+                      <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d227dafff645590ea73dd70ae7d218d550508360'></script>
+                      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/774996/t/1"></script>
                   </div>
               </div>
               <!-- Footer Widget Ends -->
@@ -157,6 +151,18 @@
           mirror: false, // whether elements should animate out while scrolling past them
           anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
+      });
+  </script>
+
+  <!-- ekkoLightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+  <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+          event.preventDefault();
+          $(this).ekkoLightbox({
+              title: "check",
+              footer: "Footerk"
+          });
       });
   </script>
   </body>

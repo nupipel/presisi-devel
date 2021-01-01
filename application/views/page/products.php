@@ -35,13 +35,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix marketing planning">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img1.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-1.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-1.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
@@ -58,13 +58,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix branding planning">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img2.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-2.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-2.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
@@ -81,13 +81,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix branding research">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img3.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-3.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-3.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
@@ -104,13 +104,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix marketing research">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img4.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-4.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-4.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
@@ -127,13 +127,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix marketing planning">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img5.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-5.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-5.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
@@ -150,13 +150,13 @@
                 <div class="col-lg-4 col-md-6 col-xs-12 mix planning research">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="<?= base_url() ?>assets/img/portfolio/img6.jpg" alt="" />
+                            <img src="<?= base_url() ?>assets/img/presisi/pro-6.jpg" alt="" />
                         </div>
                         <div class="portfoli-content">
                             <div class="sup-desc-wrap">
                                 <div class="sup-desc-inner">
                                     <div class="sup-link">
-                                        <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="left-link" href="<?= base_url() ?>assets/img/presisi/pro-6.jpg" data-toggle="lightbox" data-gallery="gallery"><i class="fa fa-eye"></i></a>
                                         <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
                                     </div>
                                     <div class="sup-meta-wrap">
