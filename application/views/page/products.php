@@ -1,5 +1,5 @@
 <!-- Portfolio Section -->
-<section id="portfolio" class="section-padding">
+<section id="portfolio">
     <!-- Container Starts -->
     <div class="container">
         <div class="row">

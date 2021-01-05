@@ -6,25 +6,7 @@ More Info: https://uideck.com/products/helium-ui-kit
 */
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 
-/* CUSTOM */
 /* -HOME */
-#sliders .carousel-item img {
-	min-height: 450px;
-}
-
-/* --BUSINESS */
-#business .img-item {
-	max-width: 500px;
-}
-#business .img-item {
-	float: right;
-}
-
-#business .img-item {
-	float: left;
-}
-/* --END BUSINESS */
-
 /* --SLIDERS */
 
 /* #sliders .carousel-item::after {
@@ -40,29 +22,60 @@ More Info: https://uideck.com/products/helium-ui-kit
 	position: absolute;
 	bottom: 0;
 } */
+#sliders .carousel-item img {
+	min-height: 450px;
+}
 /* --END SLIDERS */
+
+/* --BUSINESS */
+section {
+	padding: 30px !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	background-color: rgba(238, 238, 238, 0.767);
+}
+
+#business .konten .work-desc {
+	padding: 0 50px;
+}
+
+#business .konten .konten-item:nth-child(even) {
+	flex-direction: row-reverse;
+	text-align: right;
+}
+
+#business .img-item {
+	max-width: 500px;
+}
+#business .img-item {
+	float: right;
+}
+
+#business .img-item {
+	float: left;
+}
+/* --END BUSINESS */
 
 .welcome {
 	background-color: #fff;
-	box-shadow: 0px -20px 0 rgba(0, 0, 0, 0.2);
+	/* background: linear-gradient(to bottom, #eeeeee 19%, #669aff 142%); */
+	box-shadow: 0px -60px 0 rgba(0, 0, 0, 0.2);
 	padding: 13px 0;
-	border-radius: 25px;
+	/* border-top-left-radius: 25px;
+	border-top-right-radius: 25px; */
 	position: relative;
-	top: -25px;
+	/* top: -25px; */
 }
 .welcome h3 {
 	font-family: "Spectral", serif;
-	/* color: #fff; */
 	margin: 10px 0;
 	text-transform: uppercase;
-	/* font-size: 40px; */
 }
 .welcome hr {
-	border: 1px solid #6699ffa8;
+	border: 3px solid #6699ffa8;
 }
-section {
-	padding: 30px 0;
-}
+
+/* CONTACT */
 
 /* Typography */
 h1,
@@ -469,6 +482,7 @@ footer .social a {
 footer {
 	background: #282828;
 	color: #7c7c7c;
+	margin-top: 50px;
 }
 
 footer .small-title {

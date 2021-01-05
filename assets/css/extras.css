@@ -1,10 +1,10 @@
 .section-title {
 	color: #585b60;
 	font-size: 26px;
-	text-align: left;
+	/* text-align: center; */
 	letter-spacing: 1px;
 	line-height: 1;
-	margin-bottom: 48px;
+	margin-bottom: 40px;
 	padding: 0 10px;
 	position: relative;
 }
@@ -14,6 +14,7 @@
 	display: block;
 	border-bottom: 3px solid #ff8d41d3;
 	width: 150px;
+	/* margin: auto; */
 	padding-bottom: 5px;
 }
 

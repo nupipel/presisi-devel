@@ -164,6 +164,9 @@
               footer: "Footerk"
           });
       });
+      $(function() {
+          $('[data-toggle="tooltip"]').tooltip()
+      })
   </script>
   </body>
 
