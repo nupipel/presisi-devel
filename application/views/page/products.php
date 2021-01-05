@@ -3,8 +3,8 @@
     <!-- Container Starts -->
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Products</h2>
+            <div class="col-md-12 text-center">
+                <h2 class="section-title" data-aos="fade-down">Products</h2>
             </div>
         </div>
         <div class="row">

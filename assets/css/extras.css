@@ -1,20 +1,22 @@
 .section-title {
+	text-transform: uppercase;
 	color: #585b60;
 	font-size: 26px;
-	/* text-align: center; */
+	text-align: center;
 	letter-spacing: 1px;
 	line-height: 1;
 	margin-bottom: 40px;
 	padding: 0 10px;
-	position: relative;
+	/* position: relative; */
+	display: inline-block;
 }
 
 .section-title::after {
 	content: "";
 	display: block;
 	border-bottom: 3px solid #ff8d41d3;
-	width: 150px;
-	/* margin: auto; */
+	width: auto;
+	margin: auto;
 	padding-bottom: 5px;
 }
 

@@ -31,12 +31,8 @@ More Info: https://uideck.com/products/helium-ui-kit
 section {
 	padding: 30px !important;
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-	border-radius: 20px;
-	background-color: rgba(238, 238, 238, 0.767);
-}
-
-#business .konten .work-desc {
-	padding: 0 50px;
+	border-radius: 5px;
+	/* background-color: rgba(238, 238, 238, 0.767); */
 }
 
 #business .konten .konten-item:nth-child(even) {
@@ -44,35 +40,46 @@ section {
 	text-align: right;
 }
 
-#business .img-item {
-	max-width: 500px;
-}
-#business .img-item {
-	float: right;
+#business .konten .konten-item img {
+	max-width: 480px;
 }
 
-#business .img-item {
-	float: left;
+#business .konten .konten-item:nth-child(odd) .konten-img {
+	text-align: right;
+}
+
+#business .konten .konten-item:nth-child(even) .konten-img {
+	text-align: left;
+}
+
+#business .konten .konten-desc {
+	padding: 0 50px;
+}
+
+#business .konten .konten-desc p {
+	color: #444;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0px;
 }
 /* --END BUSINESS */
 
 .welcome {
 	background-color: #fff;
-	/* background: linear-gradient(to bottom, #eeeeee 19%, #669aff 142%); */
 	box-shadow: 0px -60px 0 rgba(0, 0, 0, 0.2);
 	padding: 13px 0;
-	/* border-top-left-radius: 25px;
-	border-top-right-radius: 25px; */
 	position: relative;
-	/* top: -25px; */
 }
 .welcome h3 {
 	font-family: "Spectral", serif;
 	margin: 10px 0;
 	text-transform: uppercase;
+	font-size: 24px;
 }
-.welcome hr {
-	border: 3px solid #6699ffa8;
+
+.welcome .sub {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.6);
 }
 
 /* CONTACT */

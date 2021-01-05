@@ -8,7 +8,7 @@
     <section id="about" class="container">
         <div class="konten">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <h2 class="section-title" data-aos="fade-down">About Us </h2>
                 </div>
             </div>
